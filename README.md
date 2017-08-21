@@ -14,7 +14,7 @@ npm install
 npm run dev
 
 # serve at localhost:5001
-cd cd ./server
+cd ./server
 npm run start
 
 # build for production with minification
