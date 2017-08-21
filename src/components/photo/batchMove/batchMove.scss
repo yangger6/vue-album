@@ -1,0 +1,33 @@
+.checkbox{
+  margin: 16px;
+  .mu-checkbox-label{
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.batch-chip{
+  margin: 10px;
+  .batch-chip-img{
+    .mu-avatar-inner{
+      img {
+        border-radius: 16px;
+      }
+    }
+  }
+}
+.mu-avatar img{
+  border-radius: 16px;
+}
+.batch-ok, .batch-tag{
+  b,span{
+    color: #00b0ff;
+  }
+}
+.photo-title{
+  color: #00b0ff;
+  &:not(:last-child):after{
+    content: ',';
+  }
+}

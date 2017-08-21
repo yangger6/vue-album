@@ -1,0 +1,25 @@
+.drag-upload-paper{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 108px;
+  z-index: 999;
+  margin: 0 240px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  img{
+    height: 100%;
+  }
+  &:after{
+    content: 'Drag photo here to upload';
+    color: #00b0ff;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

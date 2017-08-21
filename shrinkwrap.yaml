@@ -1,0 +1,19 @@
+dependencies:
+  muse-ui: 2.1.0
+packages:
+  /keycode/2.1.9:
+    resolution:
+      integrity: sha1-lkojxU5IiUBbSGGlyfBIDUUUHfo=
+  /lodash.tolower/4.1.2:
+    resolution:
+      integrity: sha1-1tMJrEPu+NROje1mtz2rC+sIBtc=
+  /muse-ui/2.1.0:
+    dependencies:
+      keycode: 2.1.9
+      lodash.tolower: 4.1.2
+    resolution:
+      integrity: sha1-qi9uffIgvu27kIQXukhQBxv/ZN8=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapVersion: 3
+specifiers:
+  muse-ui: ^2.1.0
