@@ -43,8 +43,7 @@ but u need Chrome Browser [Allow-Control-Allow-Origin](https://chrome.google.com
 
 1. cd to vue-album
 2. npm run build
-3. note off ./server/app.js this sentence
- app.use(express.static(path.join(__dirname,'../dist')))
+3. note off ./server/app.js this sentence --->  app.use(express.static(path.join(__dirname,'../dist')))
 4. npm start.
 u can see in localhost:5001
 
