@@ -35,6 +35,7 @@ npm test
 2. npm run dev  // serve with hot reload at localhost:5000
 3. cd /server
 4. npm run start // serve  at localhost:5001
+
 u can see in localhost:5000
 
 but u need Chrome Browser [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) to see it.
@@ -45,5 +46,6 @@ but u need Chrome Browser [Allow-Control-Allow-Origin](https://chrome.google.com
 2. npm run build
 3. note off ./server/app.js this sentence --->  app.use(express.static(path.join(__dirname,'../dist')))
 4. npm start.
+
 u can see in localhost:5001
 
